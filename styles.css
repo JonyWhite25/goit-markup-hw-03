@@ -38,6 +38,7 @@ img {
 
 .list {
     list-style: none;
+    display: flex;
 }
 
 .link {
@@ -48,10 +49,19 @@ img {
     color: var(--accent-color);
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ========header========== */
 
 .header {
     background-color: var(--main-background-color);
+    display: flex;
 }
 
 .logo {
@@ -167,12 +177,17 @@ img {
     letter-spacing: 0.03em;
 }
 
-/* footer */
+/* ========footer========== */
 
 .footer {
     background-color: var(--secondary-background-color);
     font-style: normal;
 }
+
+.footer-list {
+    list-style: none;
+}
+
 .logo-studio-footer {
     color: var(--secondary-text-color);
 }
@@ -190,6 +205,8 @@ img {
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
+
+/* ========portfolio========== */
 
 .header-portfolio {
     font-weight: 700;
