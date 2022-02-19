@@ -271,23 +271,22 @@ img {
 .wrapper-img {
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: var(--main-background-color);
 }
 /* ========footer========== */
 
 .footer {
     background-color: var(--secondary-background-color);
-    font-style: normal;
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-list {
     list-style: none;
-}
-
-.footer-list {
-    list-style: none;
+    font-style: normal;
 }
 
 .footer-logo {
@@ -314,11 +313,6 @@ img {
 
 .footer-link-item {
     margin-top: 9px;
-}
-
-.footer-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 /* ========portfolio========== */
@@ -385,6 +379,7 @@ img {
 }
 
 .wrapper-portfolio {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
+    border: 1px solid #ececec;
+    border-top: none;
 }
